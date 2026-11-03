@@ -1,16 +1,166 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <a href="#">Home</a>
-        </nav>
+      <nav>
+        <a class="logo" href="#home">
+          <img src="kettle-crumb-logo.svg" alt="Kettle & Crumb logo" />
+          <span>Kettle &amp; Crumb</span>
+        </a>
+        <div class="links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Reviews</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
-</body>
+
+    <main>
+      <section class="hero" id="home">
+        <h1>Chai simmered for an hour. Bread out by seven.</h1>
+        <p>
+          A small chai house and bakery where the kettle is always on and the
+          first tray comes out before the street wakes up.
+        </p>
+        <a class="btn" href="#menu">See today's menu</a>
+      </section>
+
+      <section>
+        <div class="main-container">
+          <div class="sidebar">
+            <div class="browse">
+              <h1>Browse</h1>
+              <ul>
+                <li>Favourites</li>
+                <li>Gallery</li>
+                <li>Reviews</li>
+                <li>Visit us</li>
+              </ul>
+            </div>
+
+            <div class="hours">
+              <h1>Opening hours</h1>
+              <li>Mon to Fri: 7 am to 9 pm</li>
+              <li>Saturady: 8 am to 11 pm</li>
+              <li>Sunday: 8 am to 6 pm</li>
+            </div>
+
+            <div class="tip">
+              <h1>Today's tip</h1>
+              <p>chai pairs best with a cardamom bun. Both are gone by 2 pm.</p>
+            </div>
+          </div>
+
+          <div class="main-content">
+            <h1>Our favourites</h1>
+            <p>Subtext: Everything is made in-house, in small batches.</p>
+            <div class="cards">
+              <div class="card">
+                <img src="chai.svg" alt="A cup of kadak chai" />
+                <h2>Kadak chai</h2>
+                <p>Strong black tea simmered with milk and fresh ginger.</p>
+                <p>Price: Rs 180</p>
+                <button>Order</button>
+              </div>
+              <div class="card">
+                <img src="bun.svg" alt="A cardamom bun" />
+                <h2>Kadak chai</h2>
+                <p>Strong black tea simmered with milk and fresh ginger.</p>
+                <p>Price: Rs 180</p>
+                <button>Order</button>
+              </div>
+              <div class="card">
+                <img src="cake.svg" alt="A slice of saffron milk cake" />
+                <h2>Kadak chai</h2>
+                <p>Strong black tea simmered with milk and fresh ginger.</p>
+                <p>Price: Rs 180</p>
+                <button>Order</button>
+              </div>
+              <div class="card">
+                <img src="roll.svg" alt="A masala omelette roll" />
+                <h2>Kadak chai</h2>
+                <p>Strong black tea simmered with milk and fresh ginger.</p>
+                <p>Price: Rs 180</p>
+                <button>Order</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery">
+        <div class="gallery">
+          <h1>From our counter</h1>
+          <div class="imgs">
+            <img
+              class="wide"
+              src="gallery-pink-chai.svg"
+              alt="Kashmiri pink chai"
+            />
+            <img src="gallery-loaf.svg" alt="Date and walnut loaf" />
+            <img src="gallery-samosa.svg" alt="Aloo samosa" />
+            <img class="wide" src="gallery-rusk.svg" alt="Butter rusk" />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="testimonials">
+          <h2>What people say</h2>
+          <div class="reviews">
+            <div class="review">
+              <p>
+                “The pink chai is the best I’ve had outside Kashmir. I come
+                every Saturday.”
+              </p>
+              <h3>Hina R.</h3>
+            </div>
+            <div class="review">
+              <p>
+                “Warm buns, real cardamom, no rush. It’s my study spot now.”
+              </p>
+              <h3>Bilal A.</h3>
+            </div>
+            <div class="review">
+              <p>
+                “We ordered ahead for a family gathering and everything was
+                ready on time.”
+              </p>
+              <h3>Sana M.</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="name">
+          <h1>Kettle & Crumb</h1>
+          <p>Slow-brewed chai and fresh bakes since 2019.</p>
+        </div>
+        <div class="visit">
+          <h2>Visit us</h2>
+          <p>14 Bakers’ Lane, Main Market</p>
+          <p>Islamabad</p>
+          <p>+92 000 0000000</p>
+          <p>contact@kettleandcrumb.example</p>
+        </div>
+        <div class="socials">
+          <h2>Follow us</h2>
+          <p>Instagram</p>
+          <p>Facebook</p>
+          <p>Whatsapp</p>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
